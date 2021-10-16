@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import Contador from './components/Contador';
+import Jsx from './components/Jsx';
+import Lista from './components/Lista';
+import Formulario from './components/Formulario';
+import FormHook from './components/FormHook';
 import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='container mt-5'>
+			{/* <Contador num={1} /> */}
+			{/* <Jsx /> */}
+			{/* <Lista /> */}
+			{/* <Formulario /> */}
+			<FormHook />
+		</div>
+	);
 }
 
 export default App;
